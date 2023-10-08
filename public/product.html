@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product -</title>
+
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/product.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .fa {
+        padding: 5px;
+        border-radius: 90px;
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3b5998;
+        color: white;
+      }
+      .fa-instagram {
+        background: radial-gradient(
+            circle farthest-corner at 35% 90%,
+            #fec564,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle farthest-corner at 0 140%,
+            #fec564,
+            transparent 50%
+          ),
+          radial-gradient(
+            ellipse farthest-corner at 0 -25%,
+            #5258cf,
+            transparent 50%
+          ),
+          radial-gradient(
+            ellipse farthest-corner at 20% -50%,
+            #5258cf,
+            transparent 50%
+          ),
+          radial-gradient(
+            ellipse farthest-corner at 100% 0,
+            #893dc2,
+            transparent 50%
+          ),
+          radial-gradient(
+            ellipse farthest-corner at 60% -20%,
+            #893dc2,
+            transparent 50%
+          ),
+          radial-gradient(
+            ellipse farthest-corner at 100% 100%,
+            #d9317a,
+            transparent
+          ),
+          linear-gradient(
+            #6559ca,
+            #bc318f 30%,
+            #e33f5f 50%,
+            #f77638 70%,
+            #fec66d 100%
+          );
+        color: white;
+      }
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55acee;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar"></nav>
+    <section class="product-details">
+      <div class="image-slider">
+        <div class="product-images">
+          <img src="" class="active" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+      </div>
+      <div class="details">
+        <h2 class="product-brand"></h2>
+        <p class="product-short-des"></p>
+        <span class="product-price"></span>
+        <span class="product-actual-price"></span>
+        <span class="product-discount"></span>
+        <p class="product-sub-heading"></p>
+
+        <input type="radio" name="size" value="xs" hidden id="xs-size" />
+        <label for="xs-size" class="size-radio-btn">xs</label>
+        <input type="radio" name="size" value="s" hidden id="s-size" />
+        <label for="s-size" class="size-radio-btn">s</label>
+        <input type="radio" name="size" value="m" hidden id="m-size" />
+        <label for="m-size" class="size-radio-btn">l</label>
+        <input type="radio" name="size" value="l" hidden id="l-size" />
+        <label for="l-size" class="size-radio-btn">m</label>
+        <input type="radio" name="size" value="xl" hidden id="xl-size" />
+        <label for="xl-size" class="size-radio-btn">xl</label>
+        <input type="radio" name="size" value="xxl" hidden id="xxl-size" />
+        <label for="xxl-size" class="size-radio-btn">xxl</label>
+        <input type="radio" name="size" value="xxxl" hidden id="xxxl-size" />
+        <label for="xxl-size" class="size-radio-btn">xxxl</label>
+
+        <div class="btn-group">
+          <button class="btn cart-btn">add to cart</button>
+          <button class="btn wishList-btn">add to Wishlist</button>
+        </div>
+      </div>
+    </section>
+    <section class="detail-des">
+      <h2 class="heading">Description</h2>
+      <p class="des"></p>
+    </section>
+
+    <section class="container-for-card-slider"></section>
+    <footer></footer>
+    <script src="../js/nav.js"></script>
+    <script src="../js/footer.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/product.js"></script>
+  </body>
+</html>
